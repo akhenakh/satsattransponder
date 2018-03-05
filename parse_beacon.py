@@ -218,9 +218,11 @@ c = conn.cursor()
 db = {}
 for row in c.execute("SELECT name, tle FROM satdb"):
    num = int(row[1].split("\n")[1].split(" ")[1])
+   
    name = row[0]
+   if num == 43016:
+       name = "AO-91"
    db[num] = name
-
 
 res = {}
 f = open("satslist.csv")
@@ -230,6 +232,10 @@ for line in f.readlines():
         try:
             number = int(a[1].rstrip())
         except ValueError:
+            continue
+        satname = a[0]
+        # doublon
+        if satname == 'Fox-1B (RadFxSat AO-91)' or satname == 'RadFxSat (Fox-1B AO-91)':
             continue
         if number in db:
             name = db[number]
@@ -242,7 +248,6 @@ for line in f.readlines():
                 if sat["sat"] == name:
                     print("bypass", name)
                     bypass = True
-
             if bypass:
                 continue
 
@@ -254,8 +259,10 @@ for line in f.readlines():
                 continue
             if name == "NOAA 15" or name == "NOAA 18" or name == "NOAA 19":
                 continue
-            
-            print name
+           
+            # old AO-91
+            if name == '2017-073D':
+                continue
             if name == "YUBILEINY (RS-30)":
                 name = "RS-30"
             if name == "CUBESAT XI-V (CO-58)":
@@ -281,6 +288,11 @@ for line in f.readlines():
                 name = "AO-07"
             if name == "TECHSAT 1B (GO-32)":
                 name = "GO-32"
+            if name == "AO-91 (Fox-1B RadFxSat)":
+                name = "AO-91"
+            if name == "FOX-1B (AO-91)":
+                name = "AO-91"
+
             name = name.upper()
 
             if name not in res:
