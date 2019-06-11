@@ -292,6 +292,8 @@ for line in f.readlines():
                 name = "AO-91"
             if name == "FOX-1B (AO-91)":
                 name = "AO-91"
+            if name == "AO-92 (Fox-1D)":
+                name = "AO-92"
 
             name = name.upper()
 
