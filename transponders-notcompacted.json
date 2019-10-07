@@ -13,10 +13,28 @@
             "trans": [
                 {
                     "freq": "436.730", 
-                    "mode": "4k8/9k6 GFSK"
+                    "mode": "4k8/9k6* GFSK"
                 }
             ], 
             "sat": "AISTECHSAT 3"
+        }, 
+        {
+            "trans": [
+                {
+                    "freq": "437.425", 
+                    "mode": "2k4*/9k6/19k2 GFSK CW"
+                }
+            ], 
+            "sat": "AAUSAT4"
+        }, 
+        {
+            "trans": [
+                {
+                    "freq": "436.500", 
+                    "mode": "9600bps FSK"
+                }
+            ], 
+            "sat": "IRAZU"
         }, 
         {
             "trans": [
@@ -50,12 +68,31 @@
         {
             "trans": [
                 {
-                    "frequ": "435.xxx", 
-                    "freq": "145.865", 
-                    "mode": "1200bps BPSK CW"
+                    "freq": "145.475*", 
+                    "mode": "9k6 GMSK"
+                }, 
+                {
+                    "freq": "437.950", 
+                    "mode": "9k6 GMSK"
+                }, 
+                {
+                    "freq": "145.475*", 
+                    "mode": "9k6 GMSK"
+                }, 
+                {
+                    "freq": "437.950", 
+                    "mode": "9k6 GMSK"
+                }, 
+                {
+                    "freq": "145.475*", 
+                    "mode": "9k6 GMSK"
+                }, 
+                {
+                    "freq": "437.950", 
+                    "mode": "9k6 GMSK"
                 }
             ], 
-            "sat": "NANOSATC-BR1"
+            "sat": "DCBB"
         }, 
         {
             "trans": [
@@ -81,24 +118,20 @@
         {
             "trans": [
                 {
-                    "freq": "436.000", 
-                    "mode": "1200bps Manchester"
-                }, 
-                {
-                    "freq": "2240.000", 
-                    "mode": "1200bps Manchester"
+                    "freq": "437.426", 
+                    "mode": "1k2*MSK 9k6 FSK"
                 }
             ], 
-            "sat": "NIUSAT"
+            "sat": "AAUSAT2"
         }, 
         {
             "trans": [
                 {
-                    "freq": "435.950", 
-                    "mode": "4k8*/9k6 GMSK CW"
+                    "freq": "437.325", 
+                    "mode": "1200bps AFSK CW"
                 }
             ], 
-            "sat": "TECHNOSAT"
+            "sat": "ROBUSTA 1B"
         }, 
         {
             "trans": [
@@ -108,6 +141,19 @@
                 }
             ], 
             "sat": "STRAND-1"
+        }, 
+        {
+            "trans": [
+                {
+                    "freq": "435.645", 
+                    "mode": "4k8*/9k6 GMSK"
+                }, 
+                {
+                    "freq": "435.645", 
+                    "mode": "4k8*/9k6 GMSK"
+                }
+            ], 
+            "sat": "TW-1C"
         }, 
         {
             "trans": [
@@ -123,6 +169,38 @@
                 }
             ], 
             "sat": "AO-85"
+        }, 
+        {
+            "trans": [
+                {
+                    "freq": "437.345", 
+                    "mode": "1200bps AFSK CW"
+                }, 
+                {
+                    "beacon": "437.465"
+                }, 
+                {
+                    "freq": "437.345", 
+                    "mode": "1200bps AFSK CW"
+                }, 
+                {
+                    "beacon": "437.465"
+                }
+            ], 
+            "sat": "CO-58"
+        }, 
+        {
+            "trans": [
+                {
+                    "frequ": "145.820", 
+                    "freq": "436.760", 
+                    "mode": "9600bps BPSK FM"
+                }, 
+                {
+                    "beacon": "435.840"
+                }
+            ], 
+            "sat": "TAURUS-1"
         }, 
         {
             "trans": [
@@ -168,6 +246,24 @@
         {
             "trans": [
                 {
+                    "freq": "435.670", 
+                    "mode": "4800bps GMSK"
+                }
+            ], 
+            "sat": "SIRIUSSAT 2"
+        }, 
+        {
+            "trans": [
+                {
+                    "freq": "435.570", 
+                    "mode": "4800bps GMSK"
+                }
+            ], 
+            "sat": "SIRIUSSAT 1"
+        }, 
+        {
+            "trans": [
+                {
                     "frequ": "145.825", 
                     "freq": "145.825", 
                     "mode": "APRS digipeater CW"
@@ -184,25 +280,33 @@
                     "beacon": "437.375"
                 }
             ], 
-            "sat": "MAYA-1"
+            "sat": "UITMSAT 1"
         }, 
         {
             "trans": [
                 {
-                    "freq": "437.421", 
-                    "mode": "9600bps GMSK"
+                    "freq": "437.800", 
+                    "mode": "9600bps FSK CW"
                 }
             ], 
-            "sat": "UNISAT-6"
+            "sat": "IRVINE 01"
         }, 
         {
             "trans": [
                 {
-                    "freq": "437.240", 
-                    "mode": "4800bps MSK CW"
+                    "freq": "435.000", 
+                    "mode": "9600bps GMSK CW"
+                }, 
+                {
+                    "freq": "436.395", 
+                    "mode": "9600bps GMSK CW"
+                }, 
+                {
+                    "freq": "437.385*", 
+                    "mode": "9600bps GMSK CW"
                 }
             ], 
-            "sat": "VZLUSAT-1"
+            "sat": "UWE-3"
         }, 
         {
             "trans": [
@@ -217,35 +321,6 @@
         {
             "trans": [
                 {
-                    "freq": "145.475*", 
-                    "mode": "9k6 GMSK"
-                }, 
-                {
-                    "freq": "437.950", 
-                    "mode": "9k6 GMSK"
-                }, 
-                {
-                    "freq": "145.475*", 
-                    "mode": "9k6 GMSK"
-                }, 
-                {
-                    "freq": "437.950", 
-                    "mode": "9k6 GMSK"
-                }, 
-                {
-                    "freq": "145.475*", 
-                    "mode": "9k6 GMSK"
-                }, 
-                {
-                    "freq": "437.950", 
-                    "mode": "9k6 GMSK"
-                }
-            ], 
-            "sat": "KAITUO 1B"
-        }, 
-        {
-            "trans": [
-                {
                     "frequ": "28.120", 
                     "freq": "435.350", 
                     "mode": "1200bps AFSK PSK31"
@@ -255,6 +330,19 @@
                 }
             ], 
             "sat": "NO-84"
+        }, 
+        {
+            "trans": [
+                {
+                    "freq": "437.150", 
+                    "mode": "9600bps FSK CW"
+                }, 
+                {
+                    "freq": "437.150", 
+                    "mode": "9600bps FSK CW"
+                }
+            ], 
+            "sat": "CP-7 DAVE"
         }, 
         {
             "trans": [
@@ -280,15 +368,15 @@
             "trans": [
                 {
                     "freq": "435.300", 
-                    "mode": "9600bps GMSK"
+                    "mode": "4k8*/9k6 GMSK"
                 }, 
                 {
                     "freq": "436.200*", 
-                    "mode": "9600bps GMSK"
+                    "mode": "4k8*/9k6 GMSK"
                 }, 
                 {
                     "freq": "437.500", 
-                    "mode": "9600bps GMSK"
+                    "mode": "4k8*/9k6 GMSK"
                 }
             ], 
             "sat": "SPOOQY-1"
@@ -296,15 +384,16 @@
         {
             "trans": [
                 {
-                    "freq": "436.445", 
-                    "mode": "9k6/19k2/40k0* GFSK"
+                    "frequ": "437.305", 
+                    "freq": "437.498", 
+                    "mode": "1200bps AFSK(USB)"
                 }, 
                 {
-                    "freq": "436.445", 
-                    "mode": "9k6/19k2/40k0* GFSK"
+                    "freq": "437.485", 
+                    "mode": "9600bps GMSK"
                 }
             ], 
-            "sat": "NUSAT-1 (FRESCO)"
+            "sat": "HRBE"
         }, 
         {
             "trans": [
@@ -314,6 +403,19 @@
                 }
             ], 
             "sat": "E-ST@R-II"
+        }, 
+        {
+            "trans": [
+                {
+                    "freq": "435.645", 
+                    "mode": "4k8*/9k6 GMSK"
+                }, 
+                {
+                    "freq": "435.645", 
+                    "mode": "4k8*/9k6 GMSK"
+                }
+            ], 
+            "sat": "TW-1A"
         }, 
         {
             "trans": [
@@ -489,6 +591,15 @@
         {
             "trans": [
                 {
+                    "freq": "435.950", 
+                    "mode": "4k8*/9k6 GMSK CW"
+                }
+            ], 
+            "sat": "TECHNOSAT"
+        }, 
+        {
+            "trans": [
+                {
                     "freq": "437.505", 
                     "mode": "9k6*/19k2/38k4 FSK"
                 }, 
@@ -498,15 +609,6 @@
                 }
             ], 
             "sat": "CP9"
-        }, 
-        {
-            "trans": [
-                {
-                    "freq": "436.270", 
-                    "mode": "9600bps BPSK"
-                }
-            ], 
-            "sat": "NUDTSAT"
         }, 
         {
             "trans": [
@@ -532,21 +634,34 @@
         {
             "trans": [
                 {
-                    "frequ": "435.250", 
-                    "freq": "145.960", 
-                    "mode": "FM CTCSS 67.0Hz/200bps DUV"
-                }
-            ], 
-            "sat": "RADFXSAT (FOX-1B)"
-        }, 
-        {
-            "trans": [
-                {
                     "freq": "436.500", 
                     "mode": "4800bps GMSK CW"
                 }
             ], 
             "sat": "AL FARABI 2"
+        }, 
+        {
+            "trans": [
+                {
+                    "frequ": "145.825", 
+                    "freq": "145.825", 
+                    "mode": "1200bps APRS"
+                }
+            ], 
+            "sat": "AISAT 1"
+        }, 
+        {
+            "trans": [
+                {
+                    "freq": "437.775", 
+                    "mode": "9600bps GMSK"
+                }, 
+                {
+                    "freq": "2410.000", 
+                    "mode": "9600bps GMSK"
+                }
+            ], 
+            "sat": "SUOMI 100"
         }, 
         {
             "trans": [
@@ -594,6 +709,27 @@
         {
             "trans": [
                 {
+                    "frequ": "145.825", 
+                    "freq": "145.825", 
+                    "mode": "APRS digipeater CW"
+                }, 
+                {
+                    "beacon": "437.375"
+                }, 
+                {
+                    "frequ": "145.825", 
+                    "freq": "145.825", 
+                    "mode": "APRS digipeater CW"
+                }, 
+                {
+                    "beacon": "437.375"
+                }
+            ], 
+            "sat": "MAYA 1"
+        }, 
+        {
+            "trans": [
+                {
                     "freq": "437.485", 
                     "mode": "1200bps AFSK CW"
                 }, 
@@ -606,23 +742,31 @@
         {
             "trans": [
                 {
-                    "frequ": "145.825", 
-                    "freq": "145.825", 
-                    "mode": "APRS digipeater CW"
+                    "frequ": "435.100-435.120", 
+                    "freq": "145.875-145.855", 
+                    "mode": "SSB 1k2BPSK CW"
                 }, 
                 {
-                    "beacon": "437.375"
+                    "beacon": "145.840"
                 }, 
                 {
-                    "frequ": "145.825", 
-                    "freq": "145.825", 
-                    "mode": "APRS digipeater CW"
+                    "frequ": "435.100-435.120", 
+                    "freq": "145.875-145.855", 
+                    "mode": "SSB 1k2BPSK CW"
                 }, 
                 {
-                    "beacon": "437.375"
+                    "beacon": "145.840"
+                }, 
+                {
+                    "frequ": "435.100-435.120", 
+                    "freq": "145.875-145.855", 
+                    "mode": "SSB 1k2BPSK CW"
+                }, 
+                {
+                    "beacon": "145.840"
                 }
             ], 
-            "sat": "UITMSAT-1"
+            "sat": "JO-97"
         }, 
         {
             "trans": [
@@ -656,16 +800,15 @@
         {
             "trans": [
                 {
-                    "frequ": "437.305", 
-                    "freq": "437.498", 
-                    "mode": "1200bps AFSK(USB)"
+                    "freq": "436.445", 
+                    "mode": "9k6/19k2/40k0* GFSK"
                 }, 
                 {
-                    "freq": "437.485", 
-                    "mode": "9600bps GMSK"
+                    "freq": "436.445", 
+                    "mode": "9k6/19k2/40k0* GFSK"
                 }
             ], 
-            "sat": "M-CUBED & EXP-1 PRIME"
+            "sat": "LO-87"
         }, 
         {
             "trans": [
@@ -679,22 +822,6 @@
                 }
             ], 
             "sat": "RAAVANA-1"
-        }, 
-        {
-            "trans": [
-                {
-                    "freq": "437.220", 
-                    "mode": "9600bps FSK CW"
-                }, 
-                {
-                    "freq": "2402.000", 
-                    "mode": "9600bps FSK CW"
-                }, 
-                {
-                    "beacon": "437.220"
-                }
-            ], 
-            "sat": "AALTO-1"
         }, 
         {
             "trans": [
@@ -717,11 +844,23 @@
         {
             "trans": [
                 {
-                    "freq": "435.570", 
-                    "mode": "4800bps GMSK"
+                    "frequ": "145.825", 
+                    "freq": "145.825", 
+                    "mode": "APRS digipeater CW"
+                }, 
+                {
+                    "beacon": "437.375"
+                }, 
+                {
+                    "frequ": "145.825", 
+                    "freq": "145.825", 
+                    "mode": "APRS digipeater CW"
+                }, 
+                {
+                    "beacon": "437.375"
                 }
             ], 
-            "sat": "SIRIUSSAT-1"
+            "sat": "BHUTAN 1"
         }, 
         {
             "trans": [
@@ -754,15 +893,11 @@
         {
             "trans": [
                 {
-                    "freq": "435.900", 
-                    "mode": "9600bps GMSK"
-                }, 
-                {
-                    "freq": "2405.000", 
-                    "mode": "9600bps GMSK"
+                    "freq": "437.500", 
+                    "mode": "1k2/4k8/9k6* GMSK"
                 }
             ], 
-            "sat": "NSIGHT"
+            "sat": "DELPHINI 1"
         }, 
         {
             "trans": [
@@ -789,6 +924,19 @@
         {
             "trans": [
                 {
+                    "freq": "437.219*", 
+                    "mode": "19200bps FSK"
+                }, 
+                {
+                    "freq": "437.230", 
+                    "mode": "19200bps FSK"
+                }
+            ], 
+            "sat": "FIREBIRD FU4"
+        }, 
+        {
+            "trans": [
+                {
                     "freq": "435.275", 
                     "mode": "1k2/9k6* BPSK"
                 }
@@ -810,11 +958,12 @@
         {
             "trans": [
                 {
-                    "freq": "437.505", 
-                    "mode": "1200bps BFSK CW"
+                    "frequ": "435.xxx", 
+                    "freq": "145.865", 
+                    "mode": "1200bps BPSK CW"
                 }
             ], 
-            "sat": "SWISSCUBE"
+            "sat": "NANOSATCBR1"
         }, 
         {
             "trans": [
@@ -831,20 +980,77 @@
         {
             "trans": [
                 {
-                    "freq": "437.250", 
-                    "mode": "1k2/2k4/4k8*/9k6GMSK CW"
+                    "frequ": "145.827", 
+                    "freq": "145.827", 
+                    "mode": "1200bps AFSK"
+                }, 
+                {
+                    "frequ": "435.250", 
+                    "freq": "145.827", 
+                    "mode": "9600bps FSK"
+                }, 
+                {
+                    "frequ": "145.827", 
+                    "freq": "145.827", 
+                    "mode": "1200bps AFSK"
+                }, 
+                {
+                    "frequ": "435.250", 
+                    "freq": "145.827", 
+                    "mode": "9600bps FSK"
                 }
             ], 
-            "sat": "GOMX-1"
+            "sat": "NO-44"
         }, 
         {
             "trans": [
                 {
-                    "freq": "435.670", 
-                    "mode": "4800bps GMSK"
+                    "frequ": "435.250", 
+                    "freq": "145.960", 
+                    "mode": "FM CTCSS 67.0Hz/200bps DUV"
                 }
             ], 
-            "sat": "SIRIUSSAT-2"
+            "sat": "AO-91"
+        }, 
+        {
+            "trans": [
+                {
+                    "freq": "437.470", 
+                    "mode": "1200bps AFSK CW"
+                }, 
+                {
+                    "beacon": "436.838"
+                }, 
+                {
+                    "freq": "437.470", 
+                    "mode": "1200bps AFSK CW"
+                }, 
+                {
+                    "beacon": "436.838"
+                }
+            ], 
+            "sat": "CO-55"
+        }, 
+        {
+            "trans": [
+                {
+                    "frequ": "436.200", 
+                    "freq": "436.200", 
+                    "mode": "4k8*/9k6 GMSK Digipeater"
+                }, 
+                {
+                    "beacon": "436.990*"
+                }, 
+                {
+                    "frequ": "436.200", 
+                    "freq": "436.200", 
+                    "mode": "4k8/9k6* GMSK Digipeater"
+                }, 
+                {
+                    "beacon": "436.990*"
+                }
+            ], 
+            "sat": "CUBEBEL 1"
         }, 
         {
             "trans": [
@@ -891,19 +1097,6 @@
         {
             "trans": [
                 {
-                    "freq": "435.645", 
-                    "mode": "4k8*/9k6 GMSK"
-                }, 
-                {
-                    "freq": "435.645", 
-                    "mode": "4k8*/9k6 GMSK"
-                }
-            ], 
-            "sat": "TIANWANG 1C (TW-1C)"
-        }, 
-        {
-            "trans": [
-                {
                     "freq": "435.500*", 
                     "mode": "4800bps GMSK"
                 }, 
@@ -923,38 +1116,6 @@
                 }
             ], 
             "sat": "UWE-4"
-        }, 
-        {
-            "trans": [
-                {
-                    "freq": "437.219*", 
-                    "mode": "19200bps FSK"
-                }, 
-                {
-                    "freq": "437.230", 
-                    "mode": "19200bps FSK"
-                }
-            ], 
-            "sat": "FIREBIRD 4"
-        }, 
-        {
-            "trans": [
-                {
-                    "freq": "437.345", 
-                    "mode": "1200bps AFSK CW"
-                }, 
-                {
-                    "beacon": "437.465"
-                }, 
-                {
-                    "freq": "437.345", 
-                    "mode": "1200bps AFSK CW"
-                }, 
-                {
-                    "beacon": "437.465"
-                }
-            ], 
-            "sat": "CUBESAT XI-V"
         }, 
         {
             "trans": [
@@ -998,6 +1159,15 @@
         {
             "trans": [
                 {
+                    "freq": "437.485", 
+                    "mode": "4800bps GMSK CW"
+                }
+            ], 
+            "sat": "ATHENOXAT-1"
+        }, 
+        {
+            "trans": [
+                {
                     "freq": "437.775", 
                     "mode": "9k6 2GFSK/1MbpsMSK CW"
                 }, 
@@ -1014,24 +1184,6 @@
         {
             "trans": [
                 {
-                    "freq": "437.426", 
-                    "mode": "1k2*MSK 9k6 FSK"
-                }
-            ], 
-            "sat": "AAUSAT-II"
-        }, 
-        {
-            "trans": [
-                {
-                    "freq": "436.500", 
-                    "mode": "9600bps FSK"
-                }
-            ], 
-            "sat": "BATSU-CS1 (IRAZU)"
-        }, 
-        {
-            "trans": [
-                {
                     "frequ": "437.325", 
                     "freq": "435.525/435.700*", 
                     "mode": "4k8*/9k6 GMSK"
@@ -1043,103 +1195,6 @@
                 }
             ], 
             "sat": "SPARROW"
-        }, 
-        {
-            "trans": [
-                {
-                    "frequ": "436.200", 
-                    "freq": "436.200", 
-                    "mode": "4k8*/9k6 GMSK Digipeater"
-                }, 
-                {
-                    "beacon": "436.990*"
-                }, 
-                {
-                    "frequ": "436.200", 
-                    "freq": "436.200", 
-                    "mode": "4k8/9k6* GMSK Digipeater"
-                }, 
-                {
-                    "beacon": "436.990*"
-                }
-            ], 
-            "sat": "CUBEBEL-1 (BSUSAT-1)"
-        }, 
-        {
-            "trans": [
-                {
-                    "freq": "437.425", 
-                    "mode": "2k4*/9k6/19k2 GFSK CW"
-                }
-            ], 
-            "sat": "AAUSAT 4"
-        }, 
-        {
-            "trans": [
-                {
-                    "frequ": "435.350/1267.350", 
-                    "freq": "145.880", 
-                    "mode": "FM CTCSS 67.0Hz/200bps DUV"
-                }, 
-                {
-                    "frequ": "435.350/1267.350", 
-                    "freq": "145.880", 
-                    "mode": "FM CTCSS 67.0Hz/200bps DUV"
-                }
-            ], 
-            "sat": "FOX-1D (AO-92)"
-        }, 
-        {
-            "trans": [
-                {
-                    "frequ": "435.300/1267.300", 
-                    "freq": "145.920", 
-                    "mode": "FM CTCSS 67.0Hz/200bps DUV*"
-                }, 
-                {
-                    "frequ": "435.300/1267.300", 
-                    "freq": "145.920", 
-                    "mode": "FM CTCSS 67.0Hz/200bps DUV"
-                }, 
-                {
-                    "frequ": "435.300/1267.300", 
-                    "freq": "145.920", 
-                    "mode": "FM CTCSS 67.0Hz/200bps DUV*"
-                }
-            ], 
-            "sat": "FOX-1CLIFF (AO-95)"
-        }, 
-        {
-            "trans": [
-                {
-                    "freq": "145.870", 
-                    "mode": "1200bps BPSK"
-                }, 
-                {
-                    "freq": "145.870", 
-                    "mode": "1200bps BPSK"
-                }
-            ], 
-            "sat": "DELFI-C3 (DO-64)"
-        }, 
-        {
-            "trans": [
-                {
-                    "freq": "437.470", 
-                    "mode": "1200bps AFSK CW"
-                }, 
-                {
-                    "beacon": "436.838"
-                }, 
-                {
-                    "freq": "437.470", 
-                    "mode": "1200bps AFSK CW"
-                }, 
-                {
-                    "beacon": "436.838"
-                }
-            ], 
-            "sat": "CUTE-1 (CO-55)"
         }, 
         {
             "trans": [
@@ -1229,11 +1284,20 @@
         {
             "trans": [
                 {
-                    "freq": "437.500", 
-                    "mode": "1k2/4k8/9k6* GMSK"
+                    "freq": "437.240", 
+                    "mode": "4800bps MSK CW"
                 }
             ], 
-            "sat": "DELPHINI"
+            "sat": "VZLUSAT 1"
+        }, 
+        {
+            "trans": [
+                {
+                    "freq": "437.250", 
+                    "mode": "1k2/2k4/4k8*/9k6GMSK CW"
+                }
+            ], 
+            "sat": "GOMX-1"
         }, 
         {
             "trans": [
@@ -1247,35 +1311,6 @@
         {
             "trans": [
                 {
-                    "frequ": "435.015-435.045", 
-                    "freq": "145.990-145.960", 
-                    "mode": "1200bps BPSK SSB"
-                }, 
-                {
-                    "beacon": "145.940"
-                }, 
-                {
-                    "frequ": "435.015-435.045", 
-                    "freq": "145.990-145.960", 
-                    "mode": "1200bps BPSK SSB"
-                }, 
-                {
-                    "beacon": "145.940"
-                }, 
-                {
-                    "frequ": "435.015-435.045", 
-                    "freq": "145.990-145.960", 
-                    "mode": "1200bps BPSK SSB"
-                }, 
-                {
-                    "beacon": "145.940"
-                }
-            ], 
-            "sat": "NAYIF-1 (EO-88)"
-        }, 
-        {
-            "trans": [
-                {
                     "freq": "435.950", 
                     "mode": "4k8*/9k6 mobitex GMSK"
                 }
@@ -1285,24 +1320,20 @@
         {
             "trans": [
                 {
+                    "freq": "437.505", 
+                    "mode": "1200bps BFSK CW"
+                }
+            ], 
+            "sat": "SWISSCUBE"
+        }, 
+        {
+            "trans": [
+                {
                     "freq": "437.560", 
                     "mode": "1k2*AFSK/9k6GMSK"
                 }
             ], 
             "sat": "CHOMPTT"
-        }, 
-        {
-            "trans": [
-                {
-                    "freq": "435.645", 
-                    "mode": "4k8*/9k6 GMSK"
-                }, 
-                {
-                    "freq": "435.645", 
-                    "mode": "4k8*/9k6 GMSK"
-                }
-            ], 
-            "sat": "TIANWANG 1A (TW-1A)"
         }, 
         {
             "trans": [
@@ -1349,20 +1380,20 @@
         {
             "trans": [
                 {
+                    "freq": "437.525", 
+                    "mode": "19k2*/38k4 GMSK"
+                }
+            ], 
+            "sat": "ARMADILLO"
+        }, 
+        {
+            "trans": [
+                {
                     "freq": "437.390", 
                     "mode": "1k2AFSK 9k6*GMSK CW WSJT"
                 }
             ], 
             "sat": "TEN-KOH"
-        }, 
-        {
-            "trans": [
-                {
-                    "freq": "437.800", 
-                    "mode": "9600bps FSK CW"
-                }
-            ], 
-            "sat": "IRVINE01"
         }, 
         {
             "trans": [
@@ -1382,31 +1413,25 @@
         {
             "trans": [
                 {
-                    "frequ": "2400.050-2400.300", 
-                    "freq": "10489.550-10489.800", 
-                    "mode": "Linear  transponder"
+                    "freq": "436.000", 
+                    "mode": "1200bps Manchester"
                 }, 
                 {
-                    "frequ": "2400.050-2400.300", 
-                    "freq": "10489.550-10489.800", 
-                    "mode": "Linear  transponder"
-                }, 
-                {
-                    "frequ": "2400.050-2400.300", 
-                    "freq": "10489.550-10489.800", 
-                    "mode": "Linear  transponder"
+                    "freq": "2240.000", 
+                    "mode": "1200bps Manchester"
                 }
             ], 
-            "sat": "ES'HAIL 2"
+            "sat": "NIUSAT"
         }, 
         {
             "trans": [
                 {
-                    "freq": "437.325", 
-                    "mode": "1200bps AFSK CW"
+                    "frequ": "436.000", 
+                    "freq": "145.850/435.500*/2435.000", 
+                    "mode": "1k2*AFSK/9k6GFSK"
                 }
             ], 
-            "sat": "ROBUSTA-1B"
+            "sat": "SWIATOWID"
         }, 
         {
             "trans": [
@@ -1416,6 +1441,19 @@
                 }
             ], 
             "sat": "GRIFEX"
+        }, 
+        {
+            "trans": [
+                {
+                    "freq": "435.900", 
+                    "mode": "9600bps GMSK"
+                }, 
+                {
+                    "freq": "2405.000", 
+                    "mode": "9600bps GMSK"
+                }
+            ], 
+            "sat": "NSIGHT1"
         }, 
         {
             "trans": [
@@ -1430,15 +1468,18 @@
         {
             "trans": [
                 {
-                    "freq": "437.775", 
-                    "mode": "9600bps GMSK"
+                    "freq": "437.220", 
+                    "mode": "9600bps FSK CW"
                 }, 
                 {
-                    "freq": "2410.000", 
-                    "mode": "9600bps GMSK"
+                    "freq": "2402.000", 
+                    "mode": "9600bps FSK CW"
+                }, 
+                {
+                    "beacon": "437.220"
                 }
             ], 
-            "sat": "SUOMI 100"
+            "sat": "AALTO 1"
         }, 
         {
             "trans": [
@@ -1473,54 +1514,8 @@
         {
             "trans": [
                 {
-                    "frequ": "145.880/145.825", 
-                    "freq": "435.880/145.825", 
-                    "mode": "FM_tone 88.5Hz/APRS"
-                }, 
-                {
-                    "beacon": "437.425"
-                }, 
-                {
-                    "frequ": "145.880/145.825", 
-                    "freq": "435.880/145.825", 
-                    "mode": "FM_tone 88.5Hz/APRS"
-                }, 
-                {
-                    "beacon": "437.425"
-                }
-            ], 
-            "sat": "LAPAN-A2"
-        }, 
-        {
-            "trans": [
-                {
-                    "frequ": "145.827", 
-                    "freq": "145.827", 
-                    "mode": "1200bps AFSK"
-                }, 
-                {
-                    "frequ": "435.250", 
-                    "freq": "145.827", 
-                    "mode": "9600bps FSK"
-                }, 
-                {
-                    "frequ": "145.827", 
-                    "freq": "145.827", 
-                    "mode": "1200bps AFSK"
-                }, 
-                {
-                    "frequ": "435.250", 
-                    "freq": "145.827", 
-                    "mode": "9600bps FSK"
-                }
-            ], 
-            "sat": "PCSAT (NO-44)"
-        }, 
-        {
-            "trans": [
-                {
                     "freq": "437.475", 
-                    "mode": "9600bps GFSK"
+                    "mode": "9k6/19k2 GFSK"
                 }
             ], 
             "sat": "ELFIN-B"
@@ -1528,21 +1523,24 @@
         {
             "trans": [
                 {
-                    "freq": "437.150", 
-                    "mode": "9600bps FSK CW"
+                    "freq": "145.826*", 
+                    "mode": "(V)FM (S)PSK"
                 }, 
                 {
-                    "freq": "437.150", 
-                    "mode": "9600bps FSK CW"
+                    "freq": "435.025", 
+                    "mode": "(V)FM (S)PSK"
+                }, 
+                {
+                    "beacon": "2401.500"
                 }
             ], 
-            "sat": "CP7 (DAVE)"
+            "sat": "UO-11"
         }, 
         {
             "trans": [
                 {
                     "freq": "437.450", 
-                    "mode": "9600bps GFSK"
+                    "mode": "9k6/19k2 GFSK"
                 }
             ], 
             "sat": "ELFIN-A"
@@ -1580,34 +1578,28 @@
         {
             "trans": [
                 {
-                    "frequ": "436.000", 
-                    "freq": "145.850/435.500*/2435.000", 
-                    "mode": "1k2*AFSK/9k6GFSK"
-                }
-            ], 
-            "sat": "SWIATOWID"
-        }, 
-        {
-            "trans": [
-                {
-                    "freq": "145.826*", 
-                    "mode": "(V)FM (S)PSK"
+                    "frequ": "2400.050-2400.300", 
+                    "freq": "10489.550-10489.800", 
+                    "mode": "Linear  transponder"
                 }, 
                 {
-                    "freq": "435.025", 
-                    "mode": "(V)FM (S)PSK"
+                    "frequ": "2400.050-2400.300", 
+                    "freq": "10489.550-10489.800", 
+                    "mode": "Linear  transponder"
                 }, 
                 {
-                    "beacon": "2401.500"
+                    "frequ": "2400.050-2400.300", 
+                    "freq": "10489.550-10489.800", 
+                    "mode": "Linear  transponder"
                 }
             ], 
-            "sat": "UOSAT 2 (UO-11)"
+            "sat": "QO-100"
         }, 
         {
             "trans": [
                 {
                     "freq": "437.300", 
-                    "mode": "1k2/2k4/4k8*/9k6* GMSK"
+                    "mode": "1k2/2k4/4k8/9k6* GMSK"
                 }
             ], 
             "sat": "1KUNS-PF"
@@ -1668,6 +1660,15 @@
         {
             "trans": [
                 {
+                    "freq": "437.421", 
+                    "mode": "9600bps GMSK"
+                }
+            ], 
+            "sat": "UNISAT-6"
+        }, 
+        {
+            "trans": [
+                {
                     "frequ": "145.900", 
                     "freq": "437.500", 
                     "mode": "CW"
@@ -1681,12 +1682,31 @@
         {
             "trans": [
                 {
-                    "frequ": "145.825", 
-                    "freq": "145.825", 
-                    "mode": "1200bps APRS"
+                    "frequ": "435.015-435.045", 
+                    "freq": "145.990-145.960", 
+                    "mode": "1200bps BPSK SSB"
+                }, 
+                {
+                    "beacon": "145.940"
+                }, 
+                {
+                    "frequ": "435.015-435.045", 
+                    "freq": "145.990-145.960", 
+                    "mode": "1200bps BPSK SSB"
+                }, 
+                {
+                    "beacon": "145.940"
+                }, 
+                {
+                    "frequ": "435.015-435.045", 
+                    "freq": "145.990-145.960", 
+                    "mode": "1200bps BPSK SSB"
+                }, 
+                {
+                    "beacon": "145.940"
                 }
             ], 
-            "sat": "AISAT 1"
+            "sat": "EO-88"
         }, 
         {
             "trans": [
@@ -1721,19 +1741,67 @@
         {
             "trans": [
                 {
-                    "freq": "435.000", 
-                    "mode": "9600bps GMSK CW"
-                }, 
-                {
-                    "freq": "436.395", 
-                    "mode": "9600bps GMSK CW"
-                }, 
-                {
-                    "freq": "437.385*", 
-                    "mode": "9600bps GMSK CW"
+                    "freq": "436.270", 
+                    "mode": "9600bps BPSK"
                 }
             ], 
-            "sat": "UWE-3"
+            "sat": "NUDATSAT"
+        }, 
+        {
+            "trans": [
+                {
+                    "frequ": "435.350/1267.350", 
+                    "freq": "145.880", 
+                    "mode": "FM CTCSS 67.0Hz/200bps DUV"
+                }, 
+                {
+                    "frequ": "435.350/1267.350", 
+                    "freq": "145.880", 
+                    "mode": "FM CTCSS 67.0Hz/200bps DUV"
+                }
+            ], 
+            "sat": "AO-92"
+        }, 
+        {
+            "trans": [
+                {
+                    "frequ": "145.880/145.825", 
+                    "freq": "435.880/145.825", 
+                    "mode": "FM_tone 88.5Hz/APRS"
+                }, 
+                {
+                    "beacon": "437.425"
+                }, 
+                {
+                    "frequ": "145.880/145.825", 
+                    "freq": "435.880/145.825", 
+                    "mode": "FM_tone 88.5Hz/APRS"
+                }, 
+                {
+                    "beacon": "437.425"
+                }
+            ], 
+            "sat": "IO-86"
+        }, 
+        {
+            "trans": [
+                {
+                    "frequ": "435.300/1267.300", 
+                    "freq": "145.920", 
+                    "mode": "FM CTCSS 67.0Hz/200bps DUV*"
+                }, 
+                {
+                    "frequ": "435.300/1267.300", 
+                    "freq": "145.920", 
+                    "mode": "FM CTCSS 67.0Hz/200bps DUV"
+                }, 
+                {
+                    "frequ": "435.300/1267.300", 
+                    "freq": "145.920", 
+                    "mode": "FM CTCSS 67.0Hz/200bps DUV*"
+                }
+            ], 
+            "sat": "AO-95"
         }, 
         {
             "trans": [
@@ -1766,61 +1834,11 @@
         {
             "trans": [
                 {
-                    "frequ": "145.825", 
-                    "freq": "145.825", 
-                    "mode": "APRS digipeater CW"
-                }, 
-                {
-                    "beacon": "437.375"
-                }, 
-                {
-                    "frequ": "145.825", 
-                    "freq": "145.825", 
-                    "mode": "APRS digipeater CW"
-                }, 
-                {
-                    "beacon": "437.375"
-                }
-            ], 
-            "sat": "BHUTAN-1"
-        }, 
-        {
-            "trans": [
-                {
                     "freq": "437.445", 
                     "mode": "9k6/19k2/40k0* GFSK"
                 }
             ], 
             "sat": "NUSAT-2 (BATATA)"
-        }, 
-        {
-            "trans": [
-                {
-                    "frequ": "435.100-435.120", 
-                    "freq": "145.875-145.855", 
-                    "mode": "SSB 1k2BPSK CW"
-                }, 
-                {
-                    "beacon": "145.840"
-                }, 
-                {
-                    "frequ": "435.100-435.120", 
-                    "freq": "145.875-145.855", 
-                    "mode": "SSB 1k2BPSK CW"
-                }, 
-                {
-                    "beacon": "145.840"
-                }, 
-                {
-                    "frequ": "435.100-435.120", 
-                    "freq": "145.875-145.855", 
-                    "mode": "SSB 1k2BPSK CW"
-                }, 
-                {
-                    "beacon": "145.840"
-                }
-            ], 
-            "sat": "JY1SAT (JO-97)"
         }, 
         {
             "trans": [
@@ -1873,11 +1891,15 @@
         {
             "trans": [
                 {
-                    "freq": "437.485", 
-                    "mode": "4800bps GMSK CW"
+                    "freq": "145.870", 
+                    "mode": "1200bps BPSK"
+                }, 
+                {
+                    "freq": "145.870", 
+                    "mode": "1200bps BPSK"
                 }
             ], 
-            "sat": "ATHENOXAT 1"
+            "sat": "DO-64"
         }, 
         {
             "trans": [
