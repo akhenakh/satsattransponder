@@ -160,7 +160,7 @@ manual = [
                 },
                 {
                     "frequ": "437.8",
-                    "freq": "145.8",
+                    "freq": "145.990",
                     "mode": "FM Voice RPT"
                 },
                 {
