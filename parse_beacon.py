@@ -159,8 +159,8 @@ manual = [
                     "mode": "FM APRS"
                 },
                 {
-                    "frequ": "437.8",
-                    "freq": "145.990",
+                    "freq": "437.8",
+                    "frequ": "145.990",
                     "mode": "FM Voice RPT"
                 },
                 {
